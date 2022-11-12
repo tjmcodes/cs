@@ -76,3 +76,5 @@ x = 2;
 if (iterativeFunction(arr, x, 0, arr.length-1))
   document.write("Element while loop non-recursion found!<br>");
 else document.write("Element while loop non-recursion not found!<br>");
+
+
