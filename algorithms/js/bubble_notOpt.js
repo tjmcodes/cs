@@ -4,7 +4,10 @@
 // ! Solution 1: Not optimized
 // ! This code runs with O(n^2) TIME complexity - worst case TIME complexity (due to many iterations)
 // ! Worst case SPACE complexity = 0(1) = Constant (no loops)
+
 // ! Auxiliary Space: O(1) - (doesn't have to find new space for items whilst sorting)
+
+// ! Stable Sort Implementation
 
 
 // This is our unsorted array
