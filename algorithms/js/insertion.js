@@ -1,5 +1,17 @@
 // Javascript program for insertion sort https://www.geeksforgeeks.org/insertion-sort/--This code is contributed by Mayank Tyagi
 
+// ! Worst case Time complexity is 0(N^2) - quadratic complexity (2 nested loops). Compares and checks.
+// ! Space complexity is 0(1) - constant. No extra space is needed to store values.
+// ! Stable sort
+
+
+/* To do: 
+To sort an array of size N in ascending order: 
+
+- Iterate from arr[1] to arr[N] over the array. 
+- Compare the current element (key) to its predecessor. 
+- If the key element is smaller than its predecessor, compare it to the elements before. - Move the greater elements one position up to make space for the swapped element.
+*/
 
 // Example given is imagine taking a card from a deck one at a time and sorting them in numerical order in your hand. You insert the card in the relevant position.
 
